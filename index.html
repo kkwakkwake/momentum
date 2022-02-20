@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/06a3a704e9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="bgcontainer">
+
+
+    <div class="container">
+      <h2 id="clock">00:00:00</h2>
+      <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="Hello, what's your name?">
+        <button class="hidden">Log In</button>
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      <form id="todo-form">
+        <input type="text" placeholder="What is your main focus for TODAY?" required>
+      </form>
+      <ul id="todo-list"></ul>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="others">
+        <div class="icons">
+          <i class="fa-solid fa-temperature-half"></i>
+          <i class="fa-solid fa-location-arrow"></i>
+        </div>
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="owner">
+        <p>@kkwakkwake</p>
+        <p>pics by Unsplash</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quote.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+
+</html>
